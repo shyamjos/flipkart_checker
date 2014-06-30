@@ -12,4 +12,4 @@ if len(product) == 0:
    subprocess.Popen(['notify-send', message])
 else:
 # this line only prints in terminal
-   print 'Your product is not avialble '
+   print 'Your product is not availble '
