@@ -1,15 +1,19 @@
 flipkart_checker
-================
+---------------
 
 Python script to check if a product is back on stock at flipkart.com
 
-tested in ubuntu 14.04
+tested in ubuntu 14.10
+
+Screenshots
+-----------
+![alt tag](http://i.imgur.com/fWe6TN7.jpg)
 
 Install 
-=======
+-------
 
-first copy the script and set a cron job like this 
+Download the script and set a cron job to execute the script every one minute 
 
-* * * * * DISPLAY=:0 /usr/bin/python /home/shyam/Desktop/flipkart.py 
+* * * * * DISPLAY=:0 /usr/bin/python /home/user/Desktop/flipkart.py 
 
-this will will execute the script every one minute 
+
