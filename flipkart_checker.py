@@ -4,7 +4,7 @@ import subprocess
 # URL to the product
 flipkart_url = 'URL to product'
 flipkart_fetch = urllib2.urlopen(flipkart_url).read()
-# the magic line (don't edit this)
+# the magic line (change this accordingly :) )
 product = re.findall('Notify me when this product is in stock', flipkart_fetch);
 # message to print 
 if len(product) == 0: 
