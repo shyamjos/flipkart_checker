@@ -14,6 +14,6 @@ Install
 
 Download the script and set a cron job to execute the script every one minute 
 
-  * * * * * DISPLAY=:0 /usr/bin/python /home/user/Desktop/flipkart.py 
+\* * * * * DISPLAY=:0 /usr/bin/python /home/user/Desktop/flipkart.py 
 
 
