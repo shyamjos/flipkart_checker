@@ -10,5 +10,5 @@ product = re.findall('This item is currently out of stock', flipkart_fetch);
 if len(product) == 0: 
 	message = "The Product is back in stock at Flipkart "
 else:
-	message = "Product is not available yet'
+	message = "Product is not available yet"
 subprocess.Popen(['notify-send', message])
